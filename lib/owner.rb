@@ -56,6 +56,7 @@ def play_with_cats
   self.pets.each do |species, cat|
     cat.mood = "happy"
   end
+end
   
   def walk_dogs
     dog.mood = "happy"
