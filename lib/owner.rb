@@ -38,7 +38,7 @@ def species
   end
   
   def buy_fish (fish)
-    self.pets[:fishes][fish]
+    self.pets[:fishes][fish.to_s]
   end
     
 
