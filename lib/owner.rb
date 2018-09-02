@@ -35,7 +35,7 @@ def species
   end
   
   def pets
-    pets = {:fishes => [], :dogs => [], :cats => []}
+    pets={}
   end
   
   def buy_fish (name)
