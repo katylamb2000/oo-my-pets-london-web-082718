@@ -45,6 +45,7 @@ def species
     
   def buy_cat (name)
     Cat.new (name)
+  end
 
 def play_with_cats
   cat.mood="happy"
