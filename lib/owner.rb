@@ -19,6 +19,7 @@ end
   def initialize (name)
     @name = name
     @@all << self
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
 def name 
@@ -33,13 +34,13 @@ def species
     "I am a human."
   end
   
-  def pets
-    pets = {:fishes => [], :dogs => [], :cats => []}
-  end
+  # def pets
+    
+  # end
   
   def buy_fish (name)
     
-    pets[:fishes] << Fish.new(name)
+    @pets[:fishes] << Fish.new(name)
     
   end
     
