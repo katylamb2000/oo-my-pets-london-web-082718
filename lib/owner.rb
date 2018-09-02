@@ -38,7 +38,7 @@ def species
   end
   
   def buy_fish (fish)
-    fish.new
+    pets[:fishes] << fish
   end
     
 
