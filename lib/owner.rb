@@ -22,7 +22,7 @@ end
   end
 
 def name 
-  @name = name
+  @name
 end
 
 def species
