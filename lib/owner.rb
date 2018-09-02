@@ -37,8 +37,9 @@ def species
     pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
-  def buy_fish (fish)
-    self.pets[:fishes][fish.to_s]
+  def buy_fish (name)
+    fish.new (name)
+    self.pets[:fishes][name]
   end
     
 
