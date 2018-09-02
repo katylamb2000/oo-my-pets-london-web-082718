@@ -34,9 +34,9 @@ def species
     "I am a human."
   end
   
-  # def pets
+  def pets
     
-  # end
+  end
   
   def buy_fish (name)
     
