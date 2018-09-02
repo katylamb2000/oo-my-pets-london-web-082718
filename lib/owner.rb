@@ -30,8 +30,11 @@ def species
   end
   
   def say_species
-    "I am a human"
+    "I am a human."
   end
+  
+  def pets
+    pets = {:fishes => [], :dogs => [], :cats => []}
 
 def play_with_cats (cat)
   cat.mood = "happy"
