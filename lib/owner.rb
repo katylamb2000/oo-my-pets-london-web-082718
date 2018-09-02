@@ -29,6 +29,7 @@ def species
   end
   
   def say_species
+    "I am a human"
   end
 
 def play_with_cats (cat)
