@@ -36,6 +36,9 @@ def species
   def pets
     pets = {:fishes => [], :dogs => [], :cats => []}
   end
+  
+  def buy_fish
+    
 
 def play_with_cats (cat)
   cat.mood = "happy"
