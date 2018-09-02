@@ -49,7 +49,7 @@ def species
     
   def buy_dog(name)
     dog = Dog.new(name)
-    @pets[:dogs] << "dog"
+    @pets[:dogs] << dog.to_s
    end
 
 def play_with_cats
