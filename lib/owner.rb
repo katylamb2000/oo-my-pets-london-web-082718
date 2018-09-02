@@ -35,7 +35,7 @@ def species
   end
   
   def pets
-    pets={}
+    @pets={}
   end
   
   def buy_fish (name)
@@ -44,12 +44,13 @@ def species
   end
     def buy_cat(name)
     cat = Cat.new(name)
-    pets[:cats] << cat
+    @pets[:cats] << cat
   end
     
-  # def buy_cat (name)
-  # @pets[:cats] << Cat.new(name)
-  # end
+  def buy_dog(name)
+    dog = Dog.new(name)
+    @pets[:dogs] << dog
+   end
 
 def play_with_cats
   cat.mood="happy"
