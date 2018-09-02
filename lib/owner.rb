@@ -26,6 +26,7 @@ def name
 end
 
 def species
+  species = "human"
   end
   
   def say_species
