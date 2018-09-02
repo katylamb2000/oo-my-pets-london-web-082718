@@ -34,12 +34,12 @@ def species
   end
   
   def pets
-    pets = {:fishes => [], :dogs => [], :cats => []}
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   def buy_fish (name)
-    Fish.new (name)
-    pets[:fishes] << name
+    @pets[:fishes] << Fish.new(name)
+    
   end
     
 
