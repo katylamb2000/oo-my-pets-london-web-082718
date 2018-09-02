@@ -43,6 +43,8 @@ def species
     @pets[:fishes] << Fish.new(name)
   end
     
+  def buy_cat (name)
+    Cat.new (name)
 
 def play_with_cats
   cat.mood="happy"
