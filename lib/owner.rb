@@ -38,7 +38,7 @@ def species
   end
   
   def buy_fish (name)
-    fish.initialize (name)
+    Fish.initialize (name)
     self.pets[:fishes] << name
   end
     
