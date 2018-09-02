@@ -43,7 +43,7 @@ def species
     
 
 def play_with_cats
-  Cat.mood="happy"
+  cat.mood="happy"
   end
   
   def walk_dogs
