@@ -62,6 +62,7 @@ end
    self.pets.each do |species, dog|
     dog.each.mood = "happy"
   end
+end
 
 
 end
