@@ -38,7 +38,8 @@ def species
   end
   
   def buy_fish
-    fish.authenticate_or_request_with_http_digest
+    fish.new
+  end
     
 
 def play_with_cats (cat)
